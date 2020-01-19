@@ -1,0 +1,116 @@
+<!-- wind -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <metacharset="utf-8">
+        <!--WILL INSERT BETTER TITLE-->
+        <title>SITE NAME</title>
+        <!-- CONNECT TO BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- CSS LINK -->
+        <link rel="stylesheet" href="df-data-style.css">
+        <!-- TO GET NAVBAR MENU TO WORK -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ROW 1: site title and navbar-->
+    <div class="row no-gutters">
+        <div class="col-md-12" id="main">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" id="navbar-type" href="index.html">
+                    <h1>WEATHER OR NOT</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="temperature.html" id="navbarDropdown"
+                                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Weather
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="temperature.html">Temperature</a>
+                                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                                <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="compare-page.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data-page.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ROW 2: title, text, visual -->
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-9">
+                <h6>Latitude's Effect on Wind Speed</h6>
+                <p>The rotation of Earth on its axis causes winds to shift direction, creating what are called the
+                    prevailing winds. This wind shift, known as the Coriolis effect, causes winds in the Northern
+                    Hemisphere to shift to the right and winds in the Southern Hemisphere to shift to the left. The
+                    trade winds, also called easterlies, blow near the equator between 30 degrees north latitude and 30
+                    degrees south latitude. North of the equator, these trade winds blow from the northeast. Conversely,
+                    they blow from the southeast south of the equator. The westerlies of the middle latitudes blow from
+                    the southwest in the Northern Hemisphere and from the northwest in the Southern Hemisphere. The
+                    polar winds prevail in the Arctic and Antarctic, from the latitude of 60 degrees to the poles. These
+                    winds blow from the northeast in the Arctic and from the southeast in the Antarctic.</p>
+                <img src="wind.png" class="img-responsive" id="max-temp" alt="winf">
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 3: links to other 3 visuals -->
+    <div class="container-fluid" id="bottom-bar">
+        <div class="row justify-content-md-center">
+            <div class="col-xs-3">
+                <div class="sub-title">
+                    <a>Temperature</a>
+                </div>
+                <a href="temperature.html">
+                    <img src="temp-icon-link.png" class="float-center" id="icon-link" alt="temp-link">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <div class="sub-title">
+                    <a>Humidity</a>
+                </div>
+                <a href="humidity.html">
+                    <img src="humid-icon-link.png" class="float-center" id="icon-link" alt="humid-link">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <div class="sub-title">
+                    <a>Cloudiness</a>
+                </div>
+                <a href="cloud.html">
+                    <img src="cloud-icon-link.png" class="float-center" id="icon-link" alt="cloud-link">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+/* WEB DESIGN HTLM-CSS HOMEWORK */
+
+/* body background */
+body {
+    background-color: #d9d9d9;
+    padding-bottom: 100px;
+}
+
+/* navbar */
+.navbar-brand {
+    height: 120px;
+    width: fludid;
+}
+/* collaspable dropdown menu ... trying to adjust the placement */
+.nav-item {
+    text-align: right;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
+.dropdown-menu {
+    border-style: none;
+    background-color: #f8f9fa;
+}
+
+.navbarDropdown{
+
+}
+
+/* site title: weather or not */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: lighter;
+    color:#0065b2;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+/* nav - menu */
+#navbarSupportedContent {
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e2629;
+    padding-right: 60px;
+}
+
+/* landing page title - line 1: whether or not */
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1e2629;
+    padding-top: 30px;
+}
+
+/* landing page title - line 2: latitude effects the weather? */
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e2629;
+    padding-bottom: 30px;
+}
+
+#globe-icon {
+    /* padding-top: 10px; */
+    /* padding-left: 15px; */
+    /* padding-right: 18px; */
+    /* padding-bottom: 7px; */
+    /* border-style: solid; */
+    /* border-color: #1e2629; */
+    /* border-width: thin; */
+}
+
+/* body text landing page */
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1e2629;
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* right column with links to visuals */
+#sidebar {
+    padding-top: 30px;
+    background-color: #1e2629;
+    padding-bottom: 100px;
+}
+
+/* sidebar title: effected weather */
+h5 {
+    color: #d9d9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+/* sidebar subtitles */
+h2 {
+    color: #d9d9d9;   
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    font-size: 18px;
+    font-style: lighter;
+    padding-top: 10px;
+}
+/* sidebar temperature icon */
+#temp-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d9d9d9;
+    padding: 15px;
+    width: 75%;
+}
+
+/* sidebar humid icon */
+#humid-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d9d9d9;
+    padding: 15px;
+    width: 75%;
+}
+
+/* sidebar wind icon */
+#wind-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d9d9d9;
+    padding: 15px;
+    width: 75%;
+}
+
+/* sidebar cloud icon */
+#cloud-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #d9d9d9;
+    padding: 15px;
+    width: 75%;
+}
+
+/* title for visual pages */
+h6 {
+    font-style: bold;
+    color: #1e2629;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+/* maximum temp visual */
+#max-temp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+ }   
+
+ /* titles with visual links on page bottom */
+ .sub-title {
+    color: #d9d9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+ }
+
+  /* visual links on page bottom */
+ #icon-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    padding: 15px;
+    width: 50%;
+    border-width: thin;
+ }
+
+ /* bottom bar of link */
+#bottom-bar {
+    margin-top: 60px;
+    padding-bottom: 25px;
+    background-color: #1e2629;
+}
+/* compare page visuals */
+#vis-sm {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+/* table for data page */
+table {
+    margin-top: 20px;
+    border-bottom: 1px;
+    border-width: medium;
+    border-color: #1e2629;
+    width: 1000px;
+    border-spacing: 2px;
+    text-indent: 10px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+
+    /* border-collapse: separate; 
+    border-style: solid; */
+}
+
+tbody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #1e2629;
+}
+
+thead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align-last: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #0065b2;
+}
+
+#max-temp {
+    width: 100%;
+}
+
+#vis-sm 
+{
+    width: 100%;
+}
+
+
+/*
+/* sidebar links 
+a:hover {
+    color: #00b9c7;   
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too 
+navbar is class... li talks about child elements, that only sit within a navbar class
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 60px;
+  }
+ */ 
